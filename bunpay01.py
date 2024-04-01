@@ -83,7 +83,7 @@ if st.button('Bun-payでお面を購入する (5% 割引が自動適用されま
     st.markdown(audio_html, unsafe_allow_html=True)
 
 
-if st.button('Bun-payに全財産をチャージする'):
+if st.button('Bun-payに全財産をチャージする / 賭博業者に送金する'):
     # ファイルをBase64にエンコード
     audio_file = open(mp3_file_kidding, 'rb')
     audio_bytes = audio_file.read()
