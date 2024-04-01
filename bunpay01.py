@@ -21,23 +21,8 @@ banner_image = 'bunpay_banner_r1.jpg'
 st.image(banner_image, use_column_width=True)
 
 # ファイルのパスを指定します。
-icon_file = invert_image_color('charge.jpg')
-icon_in = invert_image_color('nyukin.jpg')
-icon_out = invert_image_color('shukkin.jpg')
-icon_QR = invert_image_color('QR_r1.jpg')
-
-# 中央揃えのためのカラムを作成
-col1, col2, col3, col4 = st.columns([1,1,1,1])
-
-# 中央のカラムにロゴを配置
-with col1:
-    st.image(icon_file)
-with col2:
-    st.image(icon_in)
-with col3:
-    st.image(icon_out)
-with col4:
-    st.image(icon_QR)
+icons_file = 'icons.jpg'
+st.image(icons_file, use_column_width=True)
 
 balance_html = """
 <div style="border: 2px solid #87CEFA; border-radius: 5px; padding: 10px; text-align: center; margin: 20px 0;">
