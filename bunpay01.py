@@ -21,8 +21,8 @@ banner_image = 'bunpay_banner_r1.jpg'
 st.image(banner_image, use_column_width=True)
 
 # ファイルのパスを指定します。
-icons_file = 'icons.jpg'
-st.image(icons_file, use_column_width=True)
+#icons_file = 'icons.jpg'
+#st.image(icons_file, use_column_width=True)
 
 balance_html = """
 <div style="border: 2px solid #87CEFA; border-radius: 5px; padding: 10px; text-align: center; margin: 20px 0;">
